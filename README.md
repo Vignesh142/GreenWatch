@@ -1,4 +1,8 @@
 # Plant Disease Classification Using Tensorflow/Keras 
+![Screenshot 2024-07-16 070819](https://github.com/user-attachments/assets/4fcd9c0b-4df6-4be4-ae3e-dece59986f65)
+![Screenshot 2024-07-16 070935](https://github.com/user-attachments/assets/3ed7ac2b-d7f9-48de-ac73-c600fc2b710a)
+![Screenshot 2024-07-16 071517](https://github.com/user-attachments/assets/87ed84e3-3820-4b25-8d69-10000b5fa4f8)
+
 This project is a plant disease classification project using Convolutional Neural Networks (CNN). The dataset used in this project is the [PlantVillage Dataset](https://www.kaggle.com/emmarex/plantdisease). 
 ## Installation
 1. Clone the repository
