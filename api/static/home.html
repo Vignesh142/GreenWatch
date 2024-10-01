@@ -157,7 +157,6 @@
             formData.append('file', fileInput.files[0]);
 
             resultDiv.textContent = "Predicting...";
-
             try {
                 const response = await fetch('http://localhost:8000/predict', {
                     method: 'POST',

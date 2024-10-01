@@ -28,10 +28,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.saved_model.load("../models/1/")
-beta_model = tf.saved_model.load("../models/2/")
+MODEL = tf.keras.models.load_model('../models/model1.h5')
+beta_model = tf.saved_model.load("../models/1/")
 
-CLASS_NAMES =   ['Early Blight', 'Late Blight', 'Healthy']
+CLASS_NAMES =  ['Early Blight', 'Late Blight', 'Healthy']
 
 
 @app.get("/ping")
